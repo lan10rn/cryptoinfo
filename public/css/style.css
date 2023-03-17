@@ -19,11 +19,7 @@ body {
 }
 .inffo{
     text-align: center;
-    /* display: flex; */
-    padding: 10px;
-}
-.inffo p {
-    padding: 2px;
-    font-size: x-large;
-    color: purple;
+    padding: 20px;
+    color: rgb(157, 8, 157);
+    font-size: 24px;
 }

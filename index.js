@@ -28,7 +28,7 @@ let milink = "&order=market_cap_desc&per_page=100&page=1&sparkline=false"
 
 
 app.get("/info", function (req, res) {
-    res.render('list', { newcoin: coin , rank: rank0 , curr_price: usd , mar_cap:market_cap, high24 : high24h , low24: low24h })
+    res.render('list', { newcoin: coin , rank: rank0 , curr_price: usd , mar_cap: market_cap, high24 : high24h , low24: low24h })
 })
 
 
@@ -44,12 +44,12 @@ app.post("/", function (req, res) {
             low24h = response.data[0].low_24h
             usd = response.data[0].current_price
             market_cap = response.data[0].market_cap
-            // console.log(response.data[0].name);
-            // console.log(rank);
-            // console.log(high24);
-            // console.log(low24);
-            // console.log(usd);
-            // console.log(market_cap);
+            console.log(response.data[0].name);
+            console.log(rank0);
+            console.log(high24h);
+            console.log(low24h);
+            console.log(usd);
+            console.log(market_cap);
         });
     res.redirect("/info")
 })
