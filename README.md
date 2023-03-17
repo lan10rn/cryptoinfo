@@ -1,6 +1,6 @@
 # Cryptoinfo
-A website to show crypto currency data
-Website : <a href="https://cryptoinfo-ao2o.onrender.com">Crypto Info</a>
+<p>A website to show crypto currency data</p>
+<p>Website : <a href="https://cryptoinfo-ao2o.onrender.com">CryptoInfo</a></p>
 ### Stack Used 
 <p>Frontend : HTML, CSS, Bootstrap, Ejs</p>
 <p>Backend : NodeJs with ExpressJs</p>
