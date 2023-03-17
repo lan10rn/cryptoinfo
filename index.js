@@ -51,7 +51,7 @@ app.post("/", function (req, res) {
             console.log(usd);
             console.log(market_cap);
         });
-    setTimeout(() => {}, 2000);
+    setTimeout(() => {}, 1000);
     res.redirect("/info")
 })
 
