@@ -1,10 +1,10 @@
 # Cryptoinfo
 A website to show crypto currency data
-
+Website : <a href="https://cryptoinfo-ao2o.onrender.com">Crypto Info</a>
 ### Stack Used 
-Frontend : HTML, CSS, Bootstrap, Ejs
-Backend : NodeJs with ExpressJs
-API : Coingecko API
+<p>Frontend : HTML, CSS, Bootstrap, Ejs</p>
+<p>Backend : NodeJs with ExpressJs</p>
+<p>API : Coingecko API</p>
 
 ### Screen Shot (SAMPLE)
 
