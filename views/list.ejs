@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title>
+        Landing page
+    </title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="name">
+        <p>
+            <%= newcoin.toUpperCase() %>
+        </p>
+        <img src='https://cryptologos.cc/logos/thumbs/<%=newcoin%>.png?v=023'>
+    </div>
+    <div class="inffo">
+        <p>Rank (Market Cap) : <%= rank %></p>
+        <p>Current Price(USD) : <%= curr_price %></p>
+        <p>Total Market Cap : <%= mar_cap %></p>
+        <p>24h High : <%= high24 %></p>
+        <p>24h Low : <%= low24 %></p>
+    </div>
+</body>
+</html>

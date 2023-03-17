@@ -1,0 +1,29 @@
+body {
+    /* background-image: -webkit-linear-gradient(45deg, #dc87d4 50%, blanchedalmond 50%); */
+    background-color: rgb(239, 237, 233);
+}
+
+.name {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    font-size: 60px;
+    font-weight: 450;
+    text-align: center;
+    align-content: center;
+    color: rgb(235, 225, 156);
+    text-shadow: -2px 2px 0 #41ba45,
+        2px 2px 0 #c63d2b,
+        2px -2px 0 #42afac,
+        -2px -2px 0 #c6c23f;
+
+}
+.inffo{
+    text-align: center;
+    /* display: flex; */
+    padding: 10px;
+}
+.inffo p {
+    padding: 2px;
+    font-size: x-large;
+    color: purple;
+}

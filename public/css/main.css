@@ -1,0 +1,157 @@
+.inp{
+    text-align: center;
+    margin: 100px;
+}
+input{
+    border-radius: 20px;
+    font-size: 40px;
+    text-align: center ;
+    border-width: 0;
+    box-shadow: 0px 0px 40px blueviolet;
+    height: 70px;
+}
+.search{
+    text-align: center;
+}
+button{
+    height: 60px;
+    border-radius: 15px;
+    font-size: 25px;
+    text-align: center ;
+    border-width: 4px;
+    border-color: rgb(211, 81, 166);
+}
+.name{
+    box-shadow: 0px 0px 4px purple;
+    text-align: center;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600;700&display=swap');
+
+
+body {
+    background-color: rgb(240, 239, 239);
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.coin {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin: 38px 0;
+    font-family: 'Mukta', sans-serif;
+    border-radius: 20px;
+    /* background: linear-gradient(145deg, #f0f0f0, #cacaca); */
+    background: #e0e0e0;
+    box-shadow:  27px -27px 55px #bebebe,
+             -27px 27px 55px #ffffff;
+}
+
+.card .card-body{
+    display: flex;
+    justify-content: center;
+}
+
+.coin .coin-logo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* remember this max-width and height auto part very important  */
+.card .coin-logo img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    /* justify-content: center; */
+    justify-items: center;
+}
+
+.card .card-title {
+    margin-top: 7px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card .card-title h3 {
+    color: #0047AB;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.card .coin-price {
+    display: grid;
+    align-items: center;
+    margin-left: auto;
+    /* padding: 8px 22px 0 0; */
+    text-align: right;
+}
+
+.card .coin-price .price {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: -20px;
+}
+
+.card .coin-price .change {
+    color: #aaa;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+
+.card .coin-price .MarketCap {
+    color: #757574;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card.rising {
+    background: linear-gradient(to left, #ffffff, #19a10751);
+}
+
+.card.rising .coin-price .price {
+    color: #0BDA51;
+}
+
+.card.falling {
+    background: linear-gradient(to left, #fafafa, #b919077b);
+}
+
+.card.falling .coin-price .price {
+    color: #ff4040;
+}
+
+
+
+
+
+
+.row{
+    padding: 25px;
+}
+
+.col-4{
+    padding: 25px;
+}
+
+.card{
+    border-width: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Mukta', sans-serif;
+    border-radius: 20px;
+    /* background: linear-gradient(145deg, #f0f0f0, #cacaca); */
+    background: #e0e0e0;
+    box-shadow: 5px 5px 11px #bebebe,
+        -5px -5px 11px #ffffff;
+}
+
+
