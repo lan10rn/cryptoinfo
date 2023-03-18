@@ -1,5 +1,5 @@
 let fetchRes = fetch(
-    "https://api.coingecko.com/api/v3/simple/price?ids=dogecoin%2Cbitcoin%2Clitecoin%2Ctether%2Ctron%2Cmonero%2Ccardano%2Cpolygon%2Csolana%2Ctoncoin%2Cuniswap%2Cchainlink%2Cstellar%2Cdash&vs_currencies=inr&include_market_cap=true&include_24hr_vol=true&include_24hr_change=true&include_last_updated_at=true");
+    "https://api.coingecko.com/api/v3/simple/price?ids=dogecoin%2Cbitcoin%2Clitecoin%2Ctether%2Ctron%2Cmonero%2Ccardano%2Cpolygon%2Csolana%2Ctoncoin%2Cuniswap%2Cchainlink%2Cstellar%2Cdash%2Ckava%2Cchiliz%2Cmaker%2Cvechain%2Caave%2Ctezos%2Cfilecoin%2Cokb%2Ckusama&vs_currencies=inr&include_market_cap=true&include_24hr_vol=true&include_24hr_change=true&include_last_updated_at=true");
 // fetchRes is the promise to resolve it by using.then() method
 fetchRes.then(res => res.json()).then(json => {
     const container = document.querySelector('.row')
