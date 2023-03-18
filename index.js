@@ -32,7 +32,7 @@ app.get("/info", function (req, res) {
 })
 
 
-app.post("/", function (req, res) {
+app.post("/", async (req, res)=> {
     // console.log(req.body.coin)
     coin = req.body.coin
     coin = coin.toLowerCase()
