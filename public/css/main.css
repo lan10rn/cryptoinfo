@@ -1,27 +1,144 @@
-.inp{
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: blanchedalmond;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.inp {
     text-align: center;
     margin: 100px;
 }
-input{
+
+.navbar-brand{
+    margin-left: 30px;
+    color: #0047AB;
+    font-size: 30px;
+    font-weight: 500;
+}
+.navbar-brand:hover{
+    color: #f67280;
+}
+.nav-link {
+    color: #0047AB;
+    font-size: 24px;
+}
+.nav-link:hover{
+    color: #f67280;
+}
+.nav-link:active{
+    color: #0047AB;
+}
+.anime {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 150px;
+}
+
+.anime h1:nth-child(1) {
+    color: #355c7d;
+    font-family: 'Fira Code', monospace;
+    font-weight: 800;
+    font-size: 30px;
+    margin: 0 0 0 35%;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 180px;
+    animation: type 2s steps(40, end) forwards;
+}
+
+.anime h1:nth-child(2) {
+    opacity: 0;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 auto auto auto;
+    background: linear-gradient(to right, #f8b195, #f67280, #c06c84);
+    font-weight: 800;
+    font-size: 100px;
+    width: 560px;
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    overflow: hidden;
+    animation: shring-animation 2.2s steps(40, end) 2s forwards, blink .5s step-end infinite alternate;
+}
+
+@keyframes shring-animation {
+    0% {
+        background-position: 0 0;
+        opacity: 0;
+        width: 0;
+    }
+
+    1% {
+        background-position: 0 0;
+        opacity: 1;
+        border-right: 1px solid orange;
+    }
+
+    50% {
+        background-position: 150px 0;
+        opacity: 1;
+        border-right: 1px solid orange;
+    }
+
+    100% {
+        background-position: 400px 0;
+        opacity: 1;
+        border-right: 1px solid orange;
+    }
+}
+
+@keyframes type {
+    0% {
+        width: 0;
+    }
+
+    1%,
+    99% {
+        border-right: 1px solid orange;
+    }
+
+    100% {
+        border-right: none;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+input {
     border-radius: 20px;
     font-size: 40px;
-    text-align: center ;
+    text-align: center;
     border-width: 0;
     box-shadow: 0px 0px 40px blueviolet;
     height: 70px;
 }
-.search{
+
+.search {
     text-align: center;
 }
-button{
+
+button {
     height: 60px;
     border-radius: 15px;
     font-size: 25px;
-    text-align: center ;
+    text-align: center;
     border-width: 4px;
     border-color: rgb(211, 81, 166);
 }
-.name{
+
+.name {
     box-shadow: 0px 0px 4px purple;
     text-align: center;
 }
@@ -30,12 +147,6 @@ button{
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600;700&display=swap');
 
 
-body {
-    background-color: rgb(240, 239, 239);
-    /* display: flex; */
-    align-items: center;
-    justify-content: center;
-}
 
 .coin {
     display: flex;
@@ -46,11 +157,11 @@ body {
     border-radius: 20px;
     /* background: linear-gradient(145deg, #f0f0f0, #cacaca); */
     background: #e0e0e0;
-    box-shadow:  27px -27px 55px #bebebe,
-             -27px 27px 55px #ffffff;
+    box-shadow: 27px -27px 55px #bebebe,
+        -27px 27px 55px #ffffff;
 }
 
-.card .card-body{
+.card .card-body {
     display: flex;
     justify-content: center;
 }
@@ -134,15 +245,15 @@ body {
 
 
 
-.row{
+.row {
     padding: 25px;
 }
 
-.col-4{
+.col-4 {
     padding: 25px;
 }
 
-.card{
+.card {
     border-width: 0;
     display: flex;
     justify-content: center;
@@ -153,5 +264,3 @@ body {
     box-shadow: 5px 5px 11px #bebebe,
         -5px -5px 11px #ffffff;
 }
-
-
